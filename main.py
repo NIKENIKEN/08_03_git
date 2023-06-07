@@ -2,13 +2,13 @@
 
 
 def myfunc(x, y):
-    z = 3 * x - y - 1
-    return z
+    a = 4 * x - y - 1
+    return a
 
 
 def myfunc_3(a):
     for i in range(5):
-        myfunc(a[i], a[i + 1])
+        myfunc(a[i], a[i + 2])
 
 def myfunc_4(a):
     z = a[1] + a[2]

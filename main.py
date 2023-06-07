@@ -2,7 +2,7 @@
 
 
 def myfunc(x, y):
-    z = 2 * x - y + 1
+    z = 3 * x - y - 1
     return z
 
 
@@ -14,7 +14,7 @@ def myfunc_4(a):
     z = a[1] + a[2]
 
 def main():
-    a = [1, 2, 3, 4, 5]
+    a = [1, 2, 3, 4, 10]
     for _ in range(100):
         myfunc_4(a)
     for _ in range(300):
